@@ -1,0 +1,16 @@
+
+$purple:  #6f42c1 ;
+$pink:    #d63384 ;
+
+$primary:       $purple ;
+$secondary:     $pink ;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@mixin fullScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+    background-color: $color;
+}
+
